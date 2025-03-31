@@ -66,8 +66,8 @@
   // 10. Type each cell in that wave order
   let index = 0;
   const totalCells = coords.length;
-  const minDelay = 5;
-  const maxDelay = 15;
+  const minDelay = 3;
+  const maxDelay = 8;
 
   function typeNextCell() {
     if (index >= totalCells) {
